@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find key pressed</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color: rgb(34, 35, 35); color: aliceblue;">
+    <div id="heading">
+        <h2>Key Retriever</h2>
+    </div>
+    <div class="container">
+        <div class="keydetails">
+            <table>
+                <tr>
+                    <th>Key</th>
+                    <th>KeyCode</th>
+                    <th>Code</th>
+                </tr>
+                <tr>
+                    <td>${e.key}</td>
+                    <td>${e.keyCode}</td>
+                    <td>${e.code}</td>
+                </tr>
+            </table>
+        </div>
+        <div id="insert">
+            <h1>Press the key</h1>
+        </div>
+    </div>
+    <source src="index.js">
+    <script src="index.js"></script>
+</body>
+</html>
